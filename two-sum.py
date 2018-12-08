@@ -14,5 +14,6 @@ class Solution(object):
             
 la = [2,5,9,11,6,12]
 target = 8
-a = Solution().twoSum(la,target)
-print(a) #[1,3]
+aa = Solution()
+res = aa.twoSum(la,target)
+print(res) #[1,3]
